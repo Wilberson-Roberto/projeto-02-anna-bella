@@ -1,6 +1,6 @@
 /* Layout
 -------------------------------------------------*/
-html, body, #home {
+html, body, .home {
     height: 100%;
     overflow: hidden;
 }
