@@ -4,3 +4,93 @@ html, body, .home {
     height: 100%;
     overflow: hidden;
 }
+
+body {
+    font: 14px Helvetica, Arial, sans-serif;
+    background: url(../img/fundo3.png);
+}
+
+/* cabeçalho
+-------------------------------------------------*/
+.cor-botao {
+    background-color: #718152;
+}
+
+.cor-botao:hover {
+    background: #709429;
+}
+
+#nav-principal {
+    margin-top: -10px;
+    background-color: #718152;
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #151f01;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    background-color: #444e2c;
+    transition: background 0.3s;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding: 1rem 1rem;
+}
+
+.home a#home,
+.biografia a#biografia,
+.campanha a#campanha,
+.contato a#contato {
+    background-color: #444e2c;
+    color: #ffffff;
+}
+
+/* sessão sobre
+-------------------------------------------------*/
+.caixa {
+    padding: 30px 0;
+    border-bottom: 1px solid #718152;
+    background: #ffffff;
+}
+/* Tipografia
+-------------------------------------------------*/
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+}
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) {
+    
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+
+/* Dispositivos mÃĐdios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+/* Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) {
+    .container { /* Define a largura máxima da página */
+        max-width: 900px;
+    }
+}
