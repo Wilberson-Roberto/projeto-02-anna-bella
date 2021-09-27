@@ -4,3 +4,69 @@ html, body, .home {
     height: 100%;
     overflow: hidden;
 }
+
+body {
+    background: url(../img/fundo3.png);
+    font: 14px Helvetica, Arial, sans-serif;
+}
+
+/* header
+-------------------------------------------------*/
+.cor-barra {
+    background: #5c884e;
+}
+
+.navbar-collapse {
+    background: #8c915f;
+    margin-top: -10px;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    color: #1a1a1a;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 20px;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    background: #1a1a1ab6;
+    transition: background 0.5s;
+}
+
+.home a#home,
+.biografia a#biografia,
+.campanha a#campanha,
+.contato a#contato {
+    background: #1a1a1ab6;
+    color: #ffffff;
+}
+
+/* Responsividade
+-------------------------------------------------*/
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) {
+    
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+
+/* Dispositivos mÃĐdios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+/* Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) {
+    .container { /* Define a largura máxima da página */
+        max-width: 900px;
+    }
+}
