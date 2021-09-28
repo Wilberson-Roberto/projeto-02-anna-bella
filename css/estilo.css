@@ -53,6 +53,16 @@ body {
     border: 10px solid #1a1a1a;
 }
 
+/* section contato
+-------------------------------------------------*/
+.input-group {
+    margin-bottom: 20px;
+}
+
+.temas {
+    margin-top: 30px;
+}
+
 /* tipografia
 -------------------------------------------------*/
 h2 {
@@ -92,7 +102,9 @@ footer {
 
 /* Dispositivos large (desktops com 992px ou mais)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    
+    .container { /* Define a largura máxima da página */
+        max-width: 900px;
+    }
 }
 
 /* Dispositivos extra large (desktops grandes com 1200px ou mais)*/

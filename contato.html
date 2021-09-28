@@ -24,7 +24,7 @@
 </head>
 <body class="contato">
 
-    <div class="container text-center">
+    <div class="container">
         <img src="img/capa.png" class="img-fluid">
     </div>
 
@@ -54,6 +54,55 @@
             </div>
         </nav>
     </header>
+
+    <section>
+        <div class="container">
+            <div class="caixa">
+                <h2>Contato</h2>
+                <p>
+                    Cras porta sem id eros varius, eu maximus massa lobortis. Nulla sed libero convallis, semper dui ac, molestie ex. Sed in laoreet metus, at aliquam nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam dignissim posuere elit. Aliquam eget imperdiet ex. Duis tincidunt risus quis mattis consectetur.
+                </p>
+
+                <hr>
+                
+                <form>
+                    <div class="input-group row">
+                        <label for="nome" class="col-sm-3 col-form-label">Nome Completo:</label>
+                        <input class="form-control" type="text" id="nome">
+                    </div>
+
+                    <div class="input-group row">
+                        <label for="email" class="col-sm-3 col-form-label">E-mail:</label>
+                        <input class="form-control" type="email" id="email" placeholder="Ex.: nome@empresa.com.br">
+                    </div>
+
+                    <div class="input-group">
+                        <span class="mr-2">Sexo:</span>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="sexo" id="M" value="masculino">
+                            <label class="form-check-label" for="M">Masculino</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="sexo" id="F" value="feminino">
+                            <label class="form-check-label" for="F">Feminino</label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="temas">Quais os temas?</p>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="musica" value="musica">
+                            <label class="form-check-label" for="musica">Música</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section> <!-- fim da sessão contato -->
+
+    <footer class="container text-center">
+        <span>&copy; Todos os direitos reservados 2000-2015 Anna Bella</span>
+    </footer>
     
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
