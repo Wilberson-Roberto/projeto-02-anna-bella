@@ -67,6 +67,22 @@ body {
     margin-top: 20px;
 }
 
+#botao {
+    width: 100px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background: #5c884e;
+    border: 1px solid #8c915f;
+}
+
+.btn-primary:hover {
+    background: #44b920;
+    border: 1px solid #8c915f;
+}
+
 /* tipografia
 -------------------------------------------------*/
 h2 {
